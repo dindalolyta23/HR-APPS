@@ -15,7 +15,6 @@ import { useReportStore } from '../store/reportStore';
 import { Button } from '@shared/components/ui/Button';
 import { Skeleton } from '@shared/components/ui/Skeleton';
 import { EmptyState } from '@shared/components/feedback/EmptyState';
-import { AttendanceStatusBadge } from '@shared/components/ui/Badge';
 import { Modal } from '@shared/components/ui/Modal';
 import { format } from 'date-fns';
 import { id as idLocale } from 'date-fns/locale';
