@@ -1,0 +1,96 @@
+/* ─── Light Mode (default) ─────────────────────────────────────────────────── */
+:root {
+  /* Primary brand color (blue) */
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-200: #bfdbfe;
+  --color-primary-300: #93c5fd;
+  --color-primary-400: #60a5fa;
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-primary-700: #1d4ed8;
+  --color-primary-800: #1e40af;
+  --color-primary-900: #1e3a8a;
+
+  /* Background */
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f9fafb;
+  --color-bg-tertiary: #f3f4f6;
+  --color-bg-inverse: #111827;
+
+  /* Text */
+  --color-text-primary: #111827;
+  --color-text-secondary: #374151;
+  --color-text-tertiary: #6b7280;
+  --color-text-inverse: #ffffff;
+  --color-text-disabled: #9ca3af;
+
+  /* Border */
+  --color-border: #e5e7eb;
+  --color-border-strong: #d1d5db;
+
+  /* Status colors — attendance */
+  --color-status-present: #16a34a;
+  --color-status-present-bg: #dcfce7;
+  --color-status-late: #d97706;
+  --color-status-late-bg: #fef3c7;
+  --color-status-absent: #dc2626;
+  --color-status-absent-bg: #fee2e2;
+  --color-status-leave: #7c3aed;
+  --color-status-leave-bg: #ede9fe;
+
+  /* Sidebar */
+  --color-sidebar-bg: #1e293b;
+  --color-sidebar-text: #cbd5e1;
+  --color-sidebar-text-active: #ffffff;
+  --color-sidebar-item-active: #3b82f6;
+  --color-sidebar-item-hover: #334155;
+
+  /* Shadows */
+  --shadow-card: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-modal: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+  /* Focus ring */
+  --color-focus-ring: #3b82f6;
+}
+
+/* ─── Dark Mode ─────────────────────────────────────────────────────────────── */
+[data-theme='dark'] {
+  /* Background */
+  --color-bg-primary: #111827;
+  --color-bg-secondary: #1f2937;
+  --color-bg-tertiary: #374151;
+  --color-bg-inverse: #f9fafb;
+
+  /* Text */
+  --color-text-primary: #f9fafb;
+  --color-text-secondary: #e5e7eb;
+  --color-text-tertiary: #9ca3af;
+  --color-text-inverse: #111827;
+  --color-text-disabled: #6b7280;
+
+  /* Border */
+  --color-border: #374151;
+  --color-border-strong: #4b5563;
+
+  /* Status colors — slightly adjusted for dark bg */
+  --color-status-present: #4ade80;
+  --color-status-present-bg: #14532d;
+  --color-status-late: #fbbf24;
+  --color-status-late-bg: #451a03;
+  --color-status-absent: #f87171;
+  --color-status-absent-bg: #450a0a;
+  --color-status-leave: #a78bfa;
+  --color-status-leave-bg: #2e1065;
+
+  /* Sidebar */
+  --color-sidebar-bg: #0f172a;
+  --color-sidebar-text: #94a3b8;
+  --color-sidebar-text-active: #ffffff;
+  --color-sidebar-item-active: #3b82f6;
+  --color-sidebar-item-hover: #1e293b;
+
+  /* Shadows */
+  --shadow-card: 0 1px 3px 0 rgb(0 0 0 / 0.4), 0 1px 2px -1px rgb(0 0 0 / 0.4);
+  --shadow-modal: 0 20px 25px -5px rgb(0 0 0 / 0.5), 0 8px 10px -6px rgb(0 0 0 / 0.5);
+}

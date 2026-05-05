@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import { cn } from '@shared/utils/cn';
 import { useUIStore } from '@shared/stores/uiStore';

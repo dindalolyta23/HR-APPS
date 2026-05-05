@@ -353,14 +353,13 @@ export default function EmployeesPage() {
           </div>
         ) : employees.length === 0 ? (
           <EmptyState
-            title="Tidak ada karyawan"
-            description="Belum ada karyawan yang sesuai dengan filter yang dipilih."
-            action={
-              <Button onClick={() => { setEditingEmployee(null); setIsFormOpen(true); }}>
-                Tambah Karyawan
-              </Button>
-            }
-          />
+                title="Tidak ada karyawan"
+                description="Belum ada karyawan yang sesuai dengan filter yang dipilih."
+                action={{
+                  label: 'Tambah Karyawan',
+                  onClick: () => { setEditingEmployee(null); setIsFormOpen(true); }
+                }}
+              />
         ) : (
           <div className="overflow-x-auto">
             <table className="w-full text-sm" role="table">
